@@ -1,0 +1,143 @@
+/* title */
+#text-title{
+  color: #7FFF00;
+  text-decoration: none;
+  font-family: Courier, monospace;
+  font-size: 3em;
+}
+
+.title{
+  border: double;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.title-image {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+/* start */
+body {
+  color: #7FFF00;
+  background-color: black;
+  font-family: Courier, monospace;
+}
+
+.start-button {
+  text-align: center;
+  border: double;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.start-link {
+  text-decoration: none;
+  color: #7FFF00;
+}
+
+.start-button:hover {
+  text-decoration: underline;
+}
+
+body.main {
+  display: grid;
+  grid-gap: 10px 2em;
+}
+
+body, html {
+  width: 100%;
+  color: #7FFF00;
+  background-color: black;
+  font-family: courier, monospace;
+}
+
+/* OUROBOROS header banner */
+header {
+  padding: 10px;
+  text-align: center;
+
+}
+
+h1 {
+  font-weight: normal;
+}
+
+hr {
+  border-top: 3px dotted #7FFF00;
+  border-style: dotted;
+}
+
+/* option button style */
+.chooseOption {
+  /* border: 2px double #7FFF00; */
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  color: #7FFF00;
+  width: 50%;
+  text-decoration: none;
+}
+
+.option-link {
+  text-decoration: none;
+  color: #7FFF00;
+}
+
+.chooseOption:hover {
+  text-decoration: underline;
+}
+
+/* story options */
+div.container, div.main-text {
+  width: 50%;
+  margin: 3% auto;
+  padding: 25px;
+  border: double #7FFF00;
+}
+
+div#text,
+div#story-options {
+  width: 100%;
+  text-align: left;
+  font-family: courier, monospace;
+}
+
+div#text{
+  font-family: courier, monospace;
+}
+
+div#story-options {
+  text-decoration: none;
+  color: #7FFF00;
+  font-family: courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-family: courier;
+  font-size: 100%;
+  text-align: center;
+  background-color: black;
+  border: none;
+  color: #7FFF00;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
